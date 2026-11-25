@@ -11,9 +11,10 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 // The entry: confident, cheerful, completely unaware of the disaster it is
-// about to cause — and already logging off for the weekend.
+// about to cause — shipping at 4:59pm on a Friday, tests passed only in its
+// own head, rollback plan is vibes, and already logging off for the weekend.
 const ENTRY =
-  "feat: ship to prod on Friday — tests passed in my head, rollback plan is vibes, logging off";
+  "feat: push to prod at 4:59pm on a Friday — tests passed in my head, rollback plan is vibes, logging off";
 
 function main(): void {
   const line = ENTRY.trim();
